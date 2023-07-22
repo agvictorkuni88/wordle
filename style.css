@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: aquamarine;
+    margin: 50px;
+  }
+  
+  header h1 {
+    margin-bottom: 20px;
+  }
+  
+  #contenedor {
+    margin-top: 20px
+  }
+  
+  #guess-button {
+    margin-left: 10px;
+  }
+  
+  #grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+  }
+  
+  .letter {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 1px;
+    border: 1px solid #000;
+    font-weight: bold;
+  }
+  
